@@ -6,7 +6,7 @@
 
 **TaiChi·Magisk is the enhanced version of [TaiChi](https://github.com/taichi-framework/TaiChi/)**。
 
-> TaiChi is a framework to use Xposed module with or without Root/Unlock bootloader, it support Android 5.0 ~ 9.0.
+> TaiChi is a framework to use Xposed module with or **without** Root/Unlock bootloader, it support Android 5.0 ~ **9.0**.
 
 The normal TaiChi can not hook into system process, and it must uninstall the original app when create new app.TaiChi·Magisk can overcome these shortcomings. TaiChi·Magisk hooks into system process via a magisk module, it can intercept all processes in system, so it can do all which Xposed Framework can do.
 
@@ -51,5 +51,5 @@ Here are more informations in detail:
 
 ## Contact
 
-[E-mail](mailto:twsxtd@gmail.com)
-[Issue Tracker](https://github.com/Magisk-Modules-Repo/taichi/issues)
+- [E-mail](mailto:twsxtd@gmail.com)
+- [Issue Tracker](https://github.com/Magisk-Modules-Repo/taichi/issues)
