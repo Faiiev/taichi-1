@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: Lzl1y1cC6TvXytLj6okU81/P8AA=
+
+Name: module.prop
+SHA1-Digest: Qk6xWU0R9zvhHRtHa2MJeUhC9r4=
+
+Name: system/lib64/libprocessgroup.so
+SHA1-Digest: pIwQ9p1i/hSNtdLipJ9O93CPQ/M=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: n1JUpTKTg1tr5Vn+HSA6b9PSG9I=
+
+Name: common/post-fs-data.sh
+SHA1-Digest: ySVD/AB/55GJrEqa+l6afhDkay4=
+
+Name: common/system.prop
+SHA1-Digest: aRRs8x561o3VLM/FfWk3gcLBR/o=
+
+Name: META-INF/.DS_Store
+SHA1-Digest: etoC54O1vtkcfMLq014dwQqCFa0=
+
+Name: system/framework/taichi_magisk47.jar
+SHA1-Digest: ya8D93keNBY5Wyvw5N2+/PpeMcQ=
+
+Name: common/service.sh
+SHA1-Digest: KeonLpmiEfLdvz4QmX1/THry9lA=
+
+Name: config.sh
+SHA1-Digest: 7WLVjinbg+2DHEbWqlKSm7wur98=
+
+Name: system/lib/libprocessgroup.so
+SHA1-Digest: PMaa/99FbMCAb8EGUOsR+PSOKRQ=
+

@@ -1,0 +1,7 @@
+id=taichi
+name=Tai Chi
+version=v4.7.6
+versionCode=476
+author=weishu
+description=Use Xposed modules with Tai Chi in Magisk.
+minMagisk=17000
