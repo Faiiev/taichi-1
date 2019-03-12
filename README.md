@@ -29,9 +29,11 @@ In simple terms, follow the steps:
 
 1. Install Magisk.
 2. Flash the magisk module provided by TaiChi. You can find it in [release page](https://github.com/taichi-framework/TaiChi-Magisk/releases).
-3. Install TaiChi App. 
+3. Install TaiChi App. You can find it in [Release page](https://github.com/taichi-framework/TaiChi/releases) of TaiChi.
 
 Here are more informations in detail:
+
+[**Official Website**](https://taichi.cool)
 
 [**Notice**](https://github.com/taichi-framework/TaiChi/wiki/taichi-magisk-notice-en)
 
@@ -50,4 +52,4 @@ Here are more informations in detail:
 ## Contact
 
 [E-mail](mailto:twsxtd@gmail.com)
-[Fire issues](https://github.com/Magisk-Modules-Repo/taichi/issues)
+[Issue Tracker](https://github.com/Magisk-Modules-Repo/taichi/issues)
