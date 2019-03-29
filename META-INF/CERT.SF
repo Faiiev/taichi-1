@@ -1,15 +1,18 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: 6t+KQZ3StfkWf8q8z5HFgg/WZNc=
+SHA1-Digest-Manifest: 1Loy3quc6Jd0Nr68A0JbRGIDlUM=
 
 Name: META-INF/com/google/android/updater-script
 SHA1-Digest: pVUJ9D5th6d2sD8aeNp5zhiBUcs=
 
 Name: module.prop
-SHA1-Digest: lXRDh26WNUipA3dt0u5NXGD9TV4=
+SHA1-Digest: 6+ps+u86AEpshJYaQKlqDSNY8Sk=
 
 Name: system/lib64/libprocessgroup.so
-SHA1-Digest: u7lLPF8pXdLfycnP3geY3vva/+o=
+SHA1-Digest: +RQK6bGEfFDdJ3dEQkbcBN6sRtc=
+
+Name: install.sh
+SHA1-Digest: 3rMJPNdA2orrIwSF9UYIyZGSjp8=
 
 Name: META-INF/com/google/android/update-binary
 SHA1-Digest: BpbMm4A1QdKByqmL4hKvxMmkOj8=
@@ -20,18 +23,15 @@ SHA1-Digest: hGvm6Rqs5xNLKThCzSuvRHX+uz4=
 Name: common/system.prop
 SHA1-Digest: W6flt03HxPcN11vHM0tEzxA3LRw=
 
-Name: META-INF/.DS_Store
-SHA1-Digest: WrPHamhLj/7E7lS7fY4ZTvCjxoo=
-
-Name: system/framework/taichi_magisk47.jar
-SHA1-Digest: ZK+svjAxcoAgyyNVFFDG3M7mU1g=
-
 Name: common/service.sh
 SHA1-Digest: g5wAHxrSM3LVDn9O+VcQp6eOwfk=
 
 Name: config.sh
-SHA1-Digest: hDqJawcki44l68lpZXHdgsqcRPw=
+SHA1-Digest: 8G1U/scnivBkZzGJh3HGVfplcdg=
 
 Name: system/lib/libprocessgroup.so
-SHA1-Digest: DrsuIRrdyTMWsmJqje6A+y5uXVk=
+SHA1-Digest: j2PLbwAi2S168xIoycCJPqdVQO0=
+
+Name: system/framework/taichi_magisk48.jar
+SHA1-Digest: bcIwyqMq7G7nGXonnzTxsykiBxk=
 
