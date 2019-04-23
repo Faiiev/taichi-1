@@ -47,6 +47,11 @@ Here are more informations in detail:
 
 ## Changelog
 
+### v4.9.0:
+
+1. Support Android Q beta 2.
+2. Global mode.
+
 ### v4.8.0:
 
 Support new module installer introduced in Magisk 19.
