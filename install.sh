@@ -126,15 +126,16 @@ print_modname() {
   ui_print "        TaiChi - Magisk        "
   ui_print "                               "
   ui_print "          by @weishu           "
+  ui_print "                               "
+  ui_print "      https://taichi.cool      "
   ui_print "*******************************"
 }
 
 # Copy/extract your module files into $MODPATH in on_install.
 
 on_install() {
-  # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
-  # Extend/change the logic to whatever you want
   ui_print "- Extracting module files"
+  unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
   install_taichi
 }
 
@@ -162,38 +163,39 @@ check_architecture() {
   fi
 }
 
-replace_and_backup() {
-  FROM_PATH=$1
-  TARGET_NAME=libprocessgroup.so
-  BAK_NAME=libmedia_legacy.so
-  REPLACED_PATH="/system/$FROM_PATH/$BAK_NAME"
+backup_lib() {
+  LIB_DIR=$1
+  MOD_LIB_PATH=${MODPATH}/system/${LIB_DIR}
+  TARGET_LIB=libprocessgroup.so
+  ORIG_LIB=libmedia_legacy.so
+  ORIGIN_LIB_PATH="/system/$LIB_DIR/$ORIG_LIB"
 
-  if [ -f $REPLACED_PATH ]; then
-    ui_print "- $REPLACED_PATH already exist."
+  if [[ -f ${ORIGIN_LIB_PATH} ]]; then
+    ui_print "- $ORIGIN_LIB_PATH exists."
   else
-    REPLACED_PATH="/system/$FROM_PATH/$TARGET_NAME"
-    if [ -f $REPLACED_PATH ]; then
-      ui_print "- Found $TARGET_NAME."
+    ORIGIN_LIB_PATH="/system/$LIB_DIR/$TARGET_LIB"
+    if [[ -f ${ORIGIN_LIB_PATH} ]]; then
+      ui_print "- Found $TARGET_LIB."
 	else
-      abort "- $TARGET_NAME not found."
+      abort "- $TARGET_LIB not found."
     fi
   fi
 
-  cp $REPLACED_PATH "$MODPATH/system/$FROM_PATH/$BAK_NAME" || abort "- Copy $REPLACED_PATH failed."
+  cp ${ORIGIN_LIB_PATH} "${MOD_LIB_PATH}/$ORIG_LIB" || abort "- Copy $ORIGIN_LIB_PATH failed: $?"
   return 0
 }
 
 install_taichi() {
 
-  ui_print "- Installing.."
+  ui_print "- Installing..."
 
-  if [ $IS64BIT = true ]; then
-    replace_and_backup lib64
+  if [[ ${IS64BIT} = true ]]; then
+    backup_lib lib64
   else
 	rm -rf "$MODPATH/system/lib64"
   fi
 
-  replace_and_backup lib
+  backup_lib lib
 
-  ui_print "- Done."
+  ui_print "- Installed."
 }
