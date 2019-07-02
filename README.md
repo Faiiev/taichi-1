@@ -47,6 +47,10 @@ Here are more informations in detail:
 
 ## Changelog
 
+### v4.9.3:
+
+Support Android Q Beta 4.
+
 ### v4.9.0:
 
 1. Support Android Q beta 2.
