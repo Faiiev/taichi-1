@@ -47,7 +47,7 @@ Here are more informations in detail:
 
 ## Changelog
 
-### v4.9.5:
+### v4.9.6:
 
 Support Android Q of Xiaomi devices(Xiaomi 9, MIX 2S, etc)
 
