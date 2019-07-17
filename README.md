@@ -47,6 +47,10 @@ Here are more informations in detail:
 
 ## Changelog
 
+### v4.9.5:
+
+Support Android Q of Xiaomi devices(Xiaomi 9, MIX 2S, etc)
+
 ### v4.9.4:
 
 Android Q Beta5 Support.

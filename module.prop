@@ -1,7 +1,7 @@
 id=taichi
 name=Tai Chi
-version=v4.9.4
-versionCode=494
+version=v4.9.5
+versionCode=495
 author=weishu
 description=Use Xposed modules with Tai Chi in Magisk.
 minMagisk=17000
